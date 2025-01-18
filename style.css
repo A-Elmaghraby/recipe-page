@@ -6,7 +6,7 @@
 }
 body {
     font-family: "Outfit", sans-serif;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 400;
     background-color: hsl(30, 54%, 90%);
     max-width: 1440px;
@@ -27,7 +27,7 @@ body {
 }
 
 li {
-    padding-left: 1rem;
+    padding-left: 16px;
     margin-bottom: 10px;
 }
 ul li::marker {
@@ -112,7 +112,7 @@ span {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 1rem;
+    margin-top: 16px;
   }
 
 table td {
@@ -155,5 +155,5 @@ table td {
     justify-content: center;
     align-items: center;
 }
-.attribution { font-size: 12px; }
+.attribution { font-size: 0.8rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
